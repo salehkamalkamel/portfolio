@@ -1,4 +1,4 @@
-import skillsData from "../data/about data/skillsData";
+import skillsData from "../data/about-data/skillsData";
 import Skill from "./Skill";
 
 export default function SkillsList() {

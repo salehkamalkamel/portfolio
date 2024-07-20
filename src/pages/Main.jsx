@@ -1,5 +1,5 @@
-import projects from "../data/about data/projectsData";
-import skillsData from "../data/about data/skillsData";
+import projects from "../data/about-data/projectsData";
+import skillsData from "../data/about-data/skillsData";
 import Footer from "../ui/Footer";
 import Header from "../ui/Header";
 import ProjectsList from "../ui/ProjectsList";
