@@ -1,4 +1,4 @@
-import projects from "../data/about-data/projectsData";
+import { breifProjects } from "../data/about-data/projectsData";
 import skillsData from "../data/about-data/skillsData";
 import Footer from "../ui/Footer";
 import Header from "../ui/Header";
@@ -12,7 +12,7 @@ export default function Main() {
       <Header />
       <div id="content" className="pt-24 lg:w-1/2 lg:py-24">
         <About />
-        <ProjectsList projects={projects} />
+        <ProjectsList projects={breifProjects} />
         <SkillsList skills={skillsData} />
         <Footer />
       </div>
