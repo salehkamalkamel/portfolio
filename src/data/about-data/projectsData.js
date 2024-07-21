@@ -47,7 +47,7 @@ const projects = [
     info: "A simple Post Viewer app built with React to demonstrate performance optimization techniques such as React.memo and useCallback by preventing unnecessary renders.",
     tools: ["React", "React.memo", "useCallback", "CSS"],
     imageAlt: "Post Viewer app image",
-    imageSrc: "/projects-photos/performance-app",
+    imageSrc: "/projects-photos/performance-app.png",
     year: 2024,
     subtitle: "Post Viewer",
     company: "Personal Project",
