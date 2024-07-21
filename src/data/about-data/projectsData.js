@@ -41,6 +41,20 @@ const projects = [
     website: "https://quiz-app-gold-iota.vercel.app/",
     websiteLabel: "Quiz Website",
   },
+  {
+    link: "https://performance-app-orpin.vercel.app/",
+    title: "Post Viewer",
+    info: "A simple Post Viewer app built with React to demonstrate performance optimization techniques such as React.memo and useCallback by preventing unnecessary renders.",
+    tools: ["React", "React.memo", "useCallback", "CSS"],
+    imageAlt: "Post Viewer app image",
+    imageSrc: "/projects-photos/performance-app",
+    year: 2024,
+    subtitle: "Post Viewer",
+    company: "Personal Project",
+    skills: ["React", "React.memo", "useCallback", "CSS"],
+    website: "https://performance-app-orpin.vercel.app/",
+    websiteLabel: "Post Viewer Website",
+  },
 ];
 
 export default projects;
