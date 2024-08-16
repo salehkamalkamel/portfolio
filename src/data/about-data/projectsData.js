@@ -1,6 +1,20 @@
 const breifProjects = [
   {
-    link: "https://hotal-system.vercel.app/",
+    link: "https://wear-e-commerce.vercel.app/",
+    title: "E-commerce",
+    info: "A fully functional E-commerce application for clothing, built using React, React Router, and Tailwind CSS. This project demonstrates advanced routing and responsive design techniques.",
+    tools: ["React", "Tailwind", "React-Router"],
+    imageAlt: "Screenshot of the e-commerce application",
+    imageSrc: "/projects-photos/e-commerce.png", // Updated path
+    year: 2024,
+    subtitle: "Clothing E-commerce Application",
+    company: "Personal Project",
+    skills: ["React", "Tailwind", "React-Router"],
+    website: "https://wear-e-commerce.vercel.app/",
+    websiteLabel: "Visit E-commerce Website",
+  },
+  {
+    link: "https://hotal-system-app.vercel.app/",
     title: "Hotal management",
     info: "A SPA for hotal system management using Supabase for backend and React Router with multible features",
     tools: ["React", "StyledComponent", "Supabase", "React-Query"],
@@ -10,7 +24,7 @@ const breifProjects = [
     subtitle: "Project Subtitle",
     company: "Personal Project",
     skills: ["React", "StyledComponent", "Supabase", "React-Query"],
-    website: "https://hotal-system.vercel.app/",
+    website: "https://hotal-system-app.vercel.app/",
     websiteLabel: "Project Website",
   },
 
@@ -89,7 +103,7 @@ const fullProjects = [
   },
 
   {
-    link: "https://hotal-system.vercel.app/",
+    link: "https://hotal-system-app.vercel.app/",
     title: "Hotal management",
     info: "A SPA for hotal system management using Supabase for backend and React Router with multible features",
     tools: ["React", "StyledComponent", "Supabase", "React-Query"],
@@ -99,7 +113,7 @@ const fullProjects = [
     subtitle: "",
     company: "Personal Project",
     skills: ["React", "StyledComponent", "Supabase", "React-Query"],
-    website: "https://hotal-system.vercel.app/",
+    website: "https://hotal-system-app.vercel.app/",
     websiteLabel: "Project Website",
   },
 

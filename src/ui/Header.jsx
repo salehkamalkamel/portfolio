@@ -70,7 +70,7 @@ const Header = () => {
         <li className="mr-5 text-xs shrink-0">
           <a
             className="block hover:text-slate-200"
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/saleh-kamal-60b96931a"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="LinkedIn (opens in a new tab)"
@@ -86,8 +86,8 @@ const Header = () => {
             href="https://www.instagram.com"
             target="_blank"
             rel="noreferrer noopener"
-            aria-label="CodePen (opens in a new tab)"
-            title="CodePen"
+            aria-label="Instagram (opens in a new tab)"
+            title="Instagram"
           >
             <span className="sr-only">Instagram</span>
             <Instagram className="h-6 w-6" />
