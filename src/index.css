@@ -29,3 +29,14 @@ pre {
   z-index: 9999; /* Ensure it's above other elements */
   mix-blend-mode: difference; /* Optional: blend for effect */
 }
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.hidden-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.hidden-scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

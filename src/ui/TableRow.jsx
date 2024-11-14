@@ -13,14 +13,13 @@ const TableRow = ({ row }) => {
       <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
         <a
           className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-base"
-          href={row.link}
+          href={row.website}
           target="_blank"
           rel="noreferrer noopener"
           aria-label={`${row.title} (opens in a new tab)`}
         >
           <span>
-            {row.title}{" "}
-            {row.subtitle && (
+            {row.title && (
               <span className="inline-block ml-1">{row.subtitle}</span>
             )}
             <FeatherLink
@@ -29,18 +28,13 @@ const TableRow = ({ row }) => {
             />
           </span>
         </a>
-        {row.title && (
-          <span className="hidden sm:block font-normal text-slate-400">
-            {row.title}
-          </span>
-        )}
       </td>
       <td className="hidden py-4 pr-4 align-top lg:table-cell">
         <div className="translate-y-px whitespace-nowrap">{row.company}</div>
       </td>
       <td className="hidden py-4 pr-4 align-top lg:table-cell">
         <ul className="flex -translate-y-1.5 flex-wrap">
-          {row.skills.map((skill, index) => (
+          {row.tools.split(",").map((skill, index) => (
             <li key={index} className="my-1 mr-1.5">
               <Tool key={index}>{skill}</Tool>
             </li>
@@ -52,7 +46,7 @@ const TableRow = ({ row }) => {
           <li className="mb-1 flex items-center">
             <a
               className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm group/link"
-              href={row.website}
+              href={row.gitHubLink}
               target="_blank"
               rel="noreferrer noopener"
               aria-label={`${row.websiteLabel} (opens in a new tab)`}

@@ -1,5 +1,7 @@
 const breifProjects = [
   {
+    story: "story about the project",
+    gitHubLink: "",
     link: "https://audio-e-shop.vercel.app/",
     title: "Audio E-commerce Application",
     info: "Explore a fully functional e-commerce application designed specifically for audio products. This project, crafted with React, React Router, and Tailwind CSS, showcases advanced routing capabilities and responsive design techniques, providing users with a seamless shopping experience.",

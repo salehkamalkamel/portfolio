@@ -7,13 +7,13 @@ const TableHeader = () => {
           Project
         </th>
         <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell">
-          Made at
+          Company
         </th>
         <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell">
           Built with
         </th>
         <th className="hidden py-4 pr-8 text-sm font-semibold text-slate-200 sm:table-cell">
-          Link
+          GitHub Link
         </th>
       </tr>
     </thead>
