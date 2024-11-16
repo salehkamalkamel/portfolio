@@ -16,12 +16,14 @@ import SkillsShow from "./features/dashboard/skills/SkillsShow";
 import EditProjectForm from "./features/dashboard/projects/EditProjectForm";
 import EditSkillForm from "./features/dashboard/skills/EditSkillForm";
 import ProjectDetails from "./features/projects/ProjectDetails";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const queryClient = new QueryClient();
 
 function App() {
   return (
     <AuthProvider>
+      <SpeedInsights />
       <QueryClientProvider client={queryClient}>
         <div className="group/spotlight relative">
           <CustomCursor />

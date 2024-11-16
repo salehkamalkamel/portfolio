@@ -5,7 +5,6 @@ import Project from "./Project";
 
 export default function ProjectsList() {
   const { projects, isGettingProjects, error } = useGetProjects();
-  console.log(projects);
   return (
     <section
       id="projects"
