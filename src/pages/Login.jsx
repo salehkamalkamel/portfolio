@@ -1,4 +1,4 @@
-// import { FcGoogle } from "react-icons/fc";
+import { FcGoogle } from "react-icons/fc";
 import { useLoginWithGoogle } from "../hooks/useLoginWithGoogle";
 import LoadingSpinner from "../features/loading/LoadingSpinner";
 import { useLogin } from "../hooks/useLogin";
@@ -6,8 +6,8 @@ import { useState } from "react";
 
 export default function Login() {
   const {
-    // loginWithGoogle,
-    // isLoggingWithGoogle,
+    loginWithGoogle,
+    isLoggingWithGoogle,
     error: googleError,
   } = useLoginWithGoogle();
 
@@ -61,7 +61,7 @@ export default function Login() {
         <h1 className="text-4xl w-full text-center my-6 font-bold tracking-tight text-slate-200 sm:text-5xl">
           Login
         </h1>
-        {/* <button
+        <button
           onClick={() => loginWithGoogle()}
           className="flex gap-4 items-center justify-center rounded-full bg-teal-400/10 px-8 py-4 text-lg font-medium leading-5 text-teal-300 hover:opacity-75 cursor-pointer transition-all w-full"
         >
@@ -72,7 +72,7 @@ export default function Login() {
               <FcGoogle /> Continue With Google
             </>
           )}
-        </button> */}
+        </button>
         <p className="w-full uppercase font-medium text-sm text-slate-200 flex items-center justify-center">
           <span className="line"></span>
           <span className="px-4">Or</span>

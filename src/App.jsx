@@ -4,7 +4,7 @@ import AppLayout from "./ui/AppLayout";
 import Main from "./pages/Main";
 import Archive from "./pages/Archive"; // Ensure this points to the correct Archive component
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
-import Login from "./pages/Login";
+// import Login from "./pages/Login";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import ProtectedRoute from "./features/auth/ProtectedRoute";
 import DashBoard from "./pages/DashBoard";
@@ -32,7 +32,7 @@ function App() {
               <Route index element={<Main />} />
               <Route path="home" element={<Main />} />
               <Route path="archive" element={<Archive />} />
-              <Route path="login" element={<Login />} />
+              {/* <Route path="login" element={<Login />} /> */}
               <Route
                 path="projectDetails/:projectId?"
                 element={<ProjectDetails />}
