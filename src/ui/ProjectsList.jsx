@@ -5,6 +5,7 @@ import Project from "./Project";
 
 export default function ProjectsList() {
   const { projects, isGettingProjects, error } = useGetProjects();
+  const sortedProjects = projects?.sort((a, b) => +b.year - +a.year);
   return (
     <section
       id="projects"
@@ -29,14 +30,14 @@ export default function ProjectsList() {
           <div className="mt-12 text-center text-red-500">
             <p>Failed to load projects. Please try again.</p>
           </div>
-        ) : !projects?.length ? (
+        ) : !sortedProjects?.length ? (
           <div className="mt-12 text-center text-red-500">
             <p>No Projects Avilable.</p>
           </div>
         ) : (
           <>
             <ul className="group/list">
-              {projects.map((project) => (
+              {sortedProjects.map((project) => (
                 <li className="mb-12" key={project.imageSrc}>
                   <Project project={project} />
                 </li>
