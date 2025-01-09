@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import AncorBtn from "./Ancor";
+// import AncorBtn from "./Ancor";
 import Tool from "./Tool";
 
 export default function Project({ project, important = false }) {
@@ -25,12 +25,13 @@ export default function Project({ project, important = false }) {
       />
       <div className="z-10 sm:order-2 sm:col-span-6">
         <h3>
-          <AncorBtn
-            href={project.link}
-            label={`${project.title} (opens in a new tab)`}
+          <p
+            className="inline-flex items-center font-medium leading-tight  text-teal focus-visible:text-teal-300 group text-base"
+            // href={project.link}
+            // label={`${project.title} (opens in a new tab)`}
           >
             {project.title}
-          </AncorBtn>
+          </p>
         </h3>
         <p className="mt-2 text-sm leading-normal">{project.info}</p>
         {project?.tools?.split(",")?.length > 0 && (
