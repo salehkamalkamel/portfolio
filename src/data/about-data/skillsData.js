@@ -1,15 +1,32 @@
 // skillsData.js
-import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare } from "react-icons/fa";
+import { BiLogoTypescript } from "react-icons/bi";
+import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
 import {
-  SiTailwindcss,
-  SiStyledcomponents,
-  SiSupabase,
-  SiRedux,
+  SiNextdotjs,
   SiReactquery,
   SiReactrouter,
+  SiRedux,
+  SiStyledcomponents,
+  SiSupabase,
+  SiTailwindcss,
 } from "react-icons/si";
 
 const skillsData = [
+  {
+    title: "Next.js",
+    info: "Experienced with Next.js for building server-side rendered React applications, improving performance and SEO.",
+    link: "https://nextjs.org/docs",
+    tools: ["SSR", "API Routes", "Static Site Generation"],
+    icon: SiNextdotjs,
+  },
+  {
+    title: "TypeScript",
+    info: "Proficient in TypeScript, enhancing JavaScript applications with strong typing, interfaces, and improved developer experience.",
+    link: "https://www.typescriptlang.org/docs/",
+    tools: ["Type Safety", "Interfaces", "Generics"],
+    icon: BiLogoTypescript,
+  },
+
   {
     title: "HTML",
     info: "Strong command of HTML, including advanced usage of tags, attributes, and SEO best practices.",

@@ -12,7 +12,7 @@ export default function About() {
       </div>
       <div>
         <p className="mb-4">
-          Hi, I&apos;m Saleh Kamal, a 21-year-old junior front-end developer
+          Hi, I&apos;m Saleh Kamal, a 22-year-old junior front-end developer
           based in Cairo, Egypt. Over the past two years, I have embarked on a
           self-study journey in frontend development, starting with CS50
           fundamentals and progressing through Data Structures, Algorithms, and
