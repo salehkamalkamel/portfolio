@@ -83,7 +83,7 @@ const Header = () => {
         <li className="mr-5 text-xs shrink-0">
           <a
             className="block hover:text-slate-200"
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/saleh_kamal_tsx/"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="Instagram (opens in a new tab)"
