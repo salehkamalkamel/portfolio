@@ -12,24 +12,29 @@ export default function About() {
       </div>
       <div>
         <p className="mb-4">
-          Hi, I&apos;m Saleh Kamal, a 22-year-old junior front-end developer
-          based in Cairo, Egypt. Over the past two years, I have embarked on a
-          self-study journey in frontend development, starting with CS50
-          fundamentals and progressing through Data Structures, Algorithms, and
-          the Frontend stack. I pursued this alongside my Civil Engineering
-          studies at college.
+          Hi, I&apos;m Saleh Kamal, a front-end developer based in Cairo, Egypt.
+          I began my career as a self-taught developer, leveraging online
+          resources to build my skills. From the start, I focused on learning
+          computer science fundamentals to establish a strong foundation in the
+          field. I started with CS50, then progressed through Data Structures,
+          Algorithms, web fundamentals, and the frontend stack—all while
+          pursuing my Civil Engineering degree in college.
         </p>
         <p className="mb-4">
           Throughout my learning journey, I have mastered CSS, HTML, JavaScript,
-          React, Tailwind CSS, Styled Components, and Supabase. I take pride in
-          creating responsive, high-performance websites and applications that
-          are visually appealing and user-friendly.
+          React, Next, Tailwind CSS, Styled Components, Firebase and Supabase. I
+          take pride in creating responsive, high-performance websites and
+          applications that are visually appealing and user-friendly.
         </p>
         <p className="mb-4">
-          Recently, I have been diving deeper into advanced React concepts and
-          related libraries like Redux and React-Query. My goal is to produce
-          efficient, maintainable code that aligns with modern web development
-          practices.
+          Recently, I’ve been delving deeper into web development by exploring
+          how core web technologies work under the hood. I’ve studied the React
+          Fiber engine, gaining a deeper understanding of its reconciliation
+          process and how it optimizes UI updates. Additionally, I’ve been
+          diving into the intricacies of JavaScript, including its event loop,
+          closures, prototypal inheritance, and other advanced concepts. My goal
+          is to go beyond just being a web developer—to truly master the
+          technologies that power the web.
         </p>
         <p className="mb-4">
           I am committed to continuous learning and improvement, always

@@ -13,12 +13,12 @@ const Header = () => {
           <a href="/">Saleh Kamal</a>
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Junior Frontend Engineer
+          Frontend Engineer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
           Innovative Front-End Developer
           <br />
-          Crafting Dynamic Web Experiences with React and Tailwind CSS
+          Crafting Dynamic Web Experiences with Next, React and Tailwind CSS
         </p>
         <nav className="nav hidden lg:block" aria-label="In-page jump links">
           <ul className="mt-16 w-max">
