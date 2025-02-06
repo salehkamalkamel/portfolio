@@ -1,10 +1,12 @@
+import React from "react";
 import { breifProjects } from "../data/about-data/projectsData";
 import skillsData from "../data/about-data/skillsData";
 import Footer from "../ui/Footer";
 import Header from "../ui/Header";
-import ProjectsList from "../ui/ProjectsList";
-import SkillsList from "../ui/SkillsList";
-import About from "./About";
+
+const About = React.lazy(() => import("./About"));
+const ProjectsList = React.lazy(() => import("../ui/ProjectsList"));
+const SkillsList = React.lazy(() => import("../ui/SkillsList"));
 
 export default function Main() {
   return (

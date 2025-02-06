@@ -7,7 +7,7 @@ export default function TextArea({
   error,
 }) {
   return (
-    <label className="flex flex-col">
+    <label className="flex flex-col w-full gap-2">
       <span>{label}</span>
       <textarea
         name={name}

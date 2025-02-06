@@ -1,5 +1,6 @@
 import { GitHub, Instagram, Linkedin } from "react-feather";
 import { useActiveSection } from "../contexts/ActiveSection";
+import AddComment from "./AddComment";
 
 const sections = ["about", "projects", "skills"];
 
@@ -94,6 +95,7 @@ const Header = () => {
           </a>
         </li>
       </ul>
+      <AddComment />
     </header>
   );
 };
