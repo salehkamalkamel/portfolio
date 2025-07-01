@@ -56,6 +56,8 @@ export default function AddComment() {
           {/* Comment Modal */}
           <div className="fixed inset-0 flex z-[2000000] justify-center p-4">
             <form
+              action="/https://usebasin.com/f/2bc5e6972ac2"
+              method="POST"
               onSubmit={handleSubmit}
               className="relative flex flex-col items-center justify-center gap-4 top-12 sm:top-20 w-full sm:max-w-80 mx-auto h-fit p-4 sm:p-8 text-[#3274c7] rounded-lg border border-[#3274c7] bg-[#091422]"
             >

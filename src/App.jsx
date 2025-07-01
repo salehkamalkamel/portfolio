@@ -8,6 +8,7 @@ import { AuthProvider } from "./contexts/AuthProvider";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import React, { Suspense } from "react";
 import LoadingPage from "./features/loading/LoadingPage";
+// import Login from "./pages/Login";
 
 // Lazy load pages/components
 const Main = React.lazy(() => import("./pages/Main"));
@@ -50,6 +51,7 @@ function App() {
                 <Route index element={<Main />} />
                 <Route path="home" element={<Main />} />
                 <Route path="archive" element={<Archive />} />
+                {/* <Route path="login" element={<Login />} /> */}
                 <Route
                   path="projectDetails/:projectId?"
                   element={<ProjectDetails />}
